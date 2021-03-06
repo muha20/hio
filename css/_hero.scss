@@ -1,0 +1,71 @@
+$btnColor: linear-gradient(
+  221deg,
+  rgba(143, 91, 251, 1) 0%,
+  rgba(207, 125, 69, 1) 74%
+);
+
+.banner {
+  position: relative;
+  background-image: url(../images/vcam_1.jpg);
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner__content {
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+}
+
+.banner__content > h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.banner__content > p {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn-hero {
+  font-size: 0.8rem;
+  border-radius: 20px;
+  color: #fff !important;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: $btnColor;
+  border: none;
+  font-style: italic;
+  cursor: pointer;
+  outline-style: none;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.btn-hero:hover {
+  letter-spacing: 5px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  transition: 0.5s;
+}

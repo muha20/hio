@@ -1,0 +1,135 @@
+footer {
+  background-color: #fafbfc;
+  color: #4b4c4d;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+footer .social a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 0px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+footer .social a:hover {
+  opacity: 0.9;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li a:hover {
+  color: #cf7d45;
+  opacity: 1;
+}
+
+footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 17px;
+  color: #9d63d2;
+}
+
+footer .copyright a {
+  text-decoration: none;
+}
+
+.img-insta {
+  width: 100%;
+  border-radius: 50%;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-style: italic;
+}
+
+main div button {
+  font-size: 0.8rem;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(221deg, #8f5bfb 0%, #cf7d45 74%);
+  border: none;
+  cursor: pointer;
+  outline-style: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  display: block;
+  font-style: italic;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 130px auto;
+  width: 50%;
+  border: 3px solid gainsboro;
+  text-align: center;
+}
+
+main header {
+  border: solid 1px gainsboro;
+  width: 100%;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-top: none;
+}
+
+main header h1 {
+  font-size: 25px;
+}
+
+main div {
+  padding: 30px;
+  font-size: 20px;
+}
+
+main div button {
+  margin: auto;
+}
+/*# sourceMappingURL=confirmation.css.map */
